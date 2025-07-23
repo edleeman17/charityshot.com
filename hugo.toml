@@ -1,0 +1,9 @@
+baseURL = 'https://charityshot.com/'
+languageCode = 'en-gb'
+title = 'Amature Photographer based in Hampshire, UK'
+theme = 'gallery'
+
+[params]
+  [params.socialIcons]
+    instagram = "https://www.instagram.com/char.ityshot"
+    email = "mailto:edleeman+charityshot@pm.me"
