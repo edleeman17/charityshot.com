@@ -7,3 +7,7 @@ theme = 'gallery'
   [params.socialIcons]
     instagram = "https://www.instagram.com/char.ityshot"
     email = "mailto:edleeman+charityshot@pm.me"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

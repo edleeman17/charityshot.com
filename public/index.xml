@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amature Photographer based in Hampshire, UK</title>
+    <link>https://charityshot.com/</link>
+    <description>Recent content on Amature Photographer based in Hampshire, UK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language><atom:link href="https://charityshot.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Charityshot</title>
+      <link>https://charityshot.com/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://charityshot.com/</guid>
+        <media:content url="https://charityshot.com/521591714_17843725197537469_6016753127103463414_n_hu70ad82509adc30d69590153090029abd_186009_filter_2999419463905045822.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://charityshot.com/521591714_17843725197537469_6016753127103463414_n_hu70ad82509adc30d69590153090029abd_186009_filter_2999419463905045822.jpg&quot; /&gt;
+          &lt;p&gt;Amature Photographer based in Hampshire&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>
