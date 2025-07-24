@@ -6,7 +6,7 @@ theme = 'gallery'
 [params]
   [params.socialIcons]
     instagram = "https://www.instagram.com/char.ityshot"
-    email = "mailto:edleeman+charityshot@pm.me"
+    email = "mailto:hello@charityshot.co.uk"
 
 [caches]
   [caches.images]
