@@ -1,6 +1,6 @@
 baseURL = 'https://charityshot.co.uk/'
 languageCode = 'en-gb'
-title = 'Amature Photographer based in Hampshire, UK'
+title = 'Photographer based in Hampshire, UK'
 theme = 'gallery'
 
 [params]
