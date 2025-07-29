@@ -6,7 +6,7 @@ params:
   sort_by: Date
   sort_order: desc
 cascade:
-  build:
-    publishResources: false
+ build:
+   publishResources: false # do not include full images. Also disable download
 ---
 
