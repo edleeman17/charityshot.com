@@ -2,6 +2,7 @@ baseURL = 'https://charityshot.co.uk/'
 languageCode = 'en-gb'
 title = 'Photographer based in Hampshire, UK'
 theme = 'gallery'
+defaultTheme = 'dark'
 
 [params]
   [params.socialIcons]
