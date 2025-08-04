@@ -4,7 +4,7 @@ description: I take photographs on cameras which I find in Charity Shops. Based 
 title: Charityshot 
 params:
   sort_by: Date
-  sort_order: desc
+  sort_order: asc
 cascade:
  build:
    publishResources: false # do not include full images. Also disable download
