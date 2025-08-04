@@ -56,29 +56,6 @@ jobs:
           mv ${{ runner.temp }}/dart-sass/ /usr/local/bin
           echo "/usr/local/bin/dart-sass" >> $GITHUB_PATH
 
-      - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
-
-      - name: Compress images in content/
-        run: |
-          find content \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.gif' \) | while read img; do
-            echo "Compressing $img"
-            convert "$img" -strip -interlace Plane -gaussian-blur 0.05 -quality 85% "$img"
-          done
-
-      - name: Commit compressed images (if any)
-        if: github.actor != 'github-actions[bot]'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto-compressed images in content/"
-            git push
-          else
-            echo "No image changes to commit."
-          fi
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
